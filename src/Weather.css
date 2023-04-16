@@ -34,14 +34,15 @@
     line-height: 20px;
 }
 .Weather img{
-    font-size: 64px;
-    margin-top: -20px;
+    font-size: 42px;
+    margin-top: -15px;
     margin-right: 10px;
 }
 .Weather .temperature{
     font-weight: bold;
     color: rgb(12, 8, 8);
     font-size: 54px;
+    margin-left: 5px;
 
 }
 .Weather .unit{
