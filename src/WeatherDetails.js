@@ -17,7 +17,7 @@ export default function WeatherDetails(props){
     </div>
     </div>
     <div className="row">
-    <div className="col-6">
+    <div className="col-md-6 col-12">
         <div className="card third-outline">
     <div className="card-body">
             <ul>
@@ -27,7 +27,7 @@ export default function WeatherDetails(props){
         </div>
         </div>
             </div> 
-    <div className="col-6">
+    <div className="col-md-6 col-12">
     <div className="card">
     <div className="card-body">
         <div className="row">
