@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import WeatherForecast from "./WeatherForecast";
 import WeatherDetails from "./WeatherDetails";
 import axios from "axios";
 import "./Weather.css";
@@ -58,7 +59,7 @@ if (weatherData.ready){
             </div>
             </form>
             <WeatherDetails data={weatherData}/>
-            
+            <WeatherForecast data={weatherData}/>
         </div>
     )
 } else {

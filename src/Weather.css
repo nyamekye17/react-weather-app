@@ -34,7 +34,6 @@
     line-height: 20px;
 }
 .Weather img{
-    font-size: 42px;
     margin-top: -15px;
     margin-right: 10px;
 }
@@ -42,7 +41,7 @@
     font-weight: bold;
     color: rgb(12, 8, 8);
     font-size: 54px;
-    margin-left: 5px;
+    margin-left: 10px;
 
 }
 .Weather .unit{
@@ -52,6 +51,7 @@
     position: relative;
     top: -28px;
 }
-.Weather .third-outline{
+.Weather .third-outline,
+.Weather .fourth-outline{
     height: 143px;
 }

@@ -18,8 +18,8 @@ export default function WeatherDetails(props){
     </div>
     <div className="row">
     <div className="col-md-6 col-12">
-        <div className="card third-outline">
-    <div className="card-body">
+        <div className="card">
+    <div className="card-body third-outline">
             <ul>
         <li>Humidity: {props.data.humidity} %</li>
         <li>Wind: {Math.round(props.data.wind)} km/h</li>
@@ -29,7 +29,7 @@ export default function WeatherDetails(props){
             </div> 
     <div className="col-md-6 col-12">
     <div className="card">
-    <div className="card-body">
+    <div className="card-body  fourth-outline">
         <div className="row">
             <div className="col-4">
         <img src={props.data.iconUrl} alt={props.data.description}/>
