@@ -12,9 +12,9 @@ const [weatherData , setWeatherData] = useState({ ready: false})
 const [city , setCity] = useState(props.defaultCity)
 
 function handleResponse(response){
-console.log(response.data);
 setWeatherData({
 ready: true,
+coordinates: response.data.coord,
 temperature: response.data.main.temp,
 city: response.data.name,
 wind: response.data.wind.speed,
