@@ -55,3 +55,8 @@
 .Weather .fourth-outline{
     height: 143px;
 }
+@media(max-width:576px){
+    .btn{
+    margin-top: 10px;
+    }  
+}
