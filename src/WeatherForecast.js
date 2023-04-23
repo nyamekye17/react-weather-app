@@ -21,7 +21,7 @@ return(
 <div className="WeatherForecast">
 <div className="row">
   {forecast.map(function (dailyForecast, index) {
-    if (index > 1 )  {
+    if (index > 1)  {
       return(
       <div className="col" key = {index}>
       <div className="card">
@@ -31,6 +31,8 @@ return(
   </div>
   </div>
   );
+    } else {
+      return null;
     }
   })}
 </div>
